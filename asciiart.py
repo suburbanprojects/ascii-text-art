@@ -19,7 +19,8 @@ while True:
 
     #prints the list of available fonts
     if selection == '1':
-        print(fonts)
+        #convert the list to string and print it
+        print("\n".join(fonts))
         
     #converts text to ascii art
     elif selection == '2':
@@ -40,4 +41,3 @@ while True:
 
 else:
     print("Invalid input")
-
